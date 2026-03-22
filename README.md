@@ -20,9 +20,10 @@ ACBIsometricCameraPawn          — Pawn z kamerą, obsługuje input i ruch
 ├── RootPivot (SceneComponent)  — punkt obrotu na mapie
 │   └── SpringArm               — kontroluje dystans (zoom) i kąt (tilt)
 │       └── Camera               — renderowanie widoku
-│
-├── UCBIsometricCameraDA        — Data Asset z konfiguracją kamery
-└── UCBInputControllerComp      — komponent na PlayerController, zarządza trybami inputu
+
+UCBIsometricCameraDA        — Data Asset z konfiguracją kamery
+UCBInputControllerComp      — komponent na PlayerController, zarządza trybami inputu
+
 ```
 
 Ruch jest obliczany względem yaw SpringArm — WASD zawsze odpowiada kierunkowi patrzenia kamery, niezależnie od obrotu.
